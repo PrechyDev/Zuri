@@ -8,5 +8,5 @@ This is the [Youtube playlist](https://www.youtube.com/watch?v=_pE-jTcLXgY&list=
 
 ### 1. Mock ATM Project
     
-    [Youtube Link](https://www.youtube.com/watch?v=KuZwwbNBhY0&list=PLxuUHF3OiqfWAITD4gPUHZ1GcYRqmyF7P&index=15)
+   [Youtube Link](https://www.youtube.com/watch?v=KuZwwbNBhY0&list=PLxuUHF3OiqfWAITD4gPUHZ1GcYRqmyF7P&index=15)
     
