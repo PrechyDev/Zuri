@@ -6,7 +6,7 @@ This is the [Youtube playlist](https://www.youtube.com/watch?v=_pE-jTcLXgY&list=
 
 ## Projects
 
-### 1. Mock ATM Project
+### Mock ATM Project
    1. The user should see the current date and time after they log in
    
    2. When the user selects option 1, they should be presented with the following:
@@ -19,5 +19,6 @@ This is the [Youtube playlist](https://www.youtube.com/watch?v=_pE-jTcLXgY&list=
     - What issue will you like to report? (Receive input from the user), output "Thank you for contacting us"
     
    [Youtube Link](https://www.youtube.com/watch?v=KuZwwbNBhY0&list=PLxuUHF3OiqfWAITD4gPUHZ1GcYRqmyF7P&index=15)
+   
    [Github Link to file](https://github.com/PrechyDev/Zuri/blob/main/mock_atm.py)
     
