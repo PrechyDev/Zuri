@@ -1,4 +1,4 @@
-15th March 2021, I statrted the Zuri training cohort 1 as a backend trainee. 
+15th March 2021, I started the Zuri training cohort 1 as a backend trainee. 
 
 This repo consists of my projects during the training.
 
