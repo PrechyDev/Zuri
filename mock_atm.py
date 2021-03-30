@@ -24,15 +24,33 @@ if username in allowed_users:
 
         selected_option = int(input('\nPlease select an option: \n'))
 
-        if selected_option == 1:
-            withdrawn = int(input('How much would you like to withdraw? \n'))
-            balance[username] -= withdrawn
-            print('Take your cash')
-        
-        elif selected_option == 2:
+        while selected_option:
+            if selected_option == 1:
+                withdrawn = int(input('How much would you like to withdraw? \n'))
+                if withdrawn >= balance[username]:
+                    
+                    # User forgotten amount left in wallet
+                    alert = input ('Insufficient Funds! \n Would you like to give it another try?Y/n: ')
+                    if alert == 'Y':
+                        selected_option
+                        
+                     # Outro message for ending transaction   
+                    else: print('Thanks For Banking With Us.')
+                     # end transaction
+                    quit()
+                else:
+                    balance[username] -= withdrawn
+                    print('Take your cash')
+                    quit()
+                    
+                    
+         elif selected_option == 2:
             deposit = int(input('How much would you like to deposit? \n'))
             current_balance = balance[username] + deposit
-            print('Your current account balance is %s' %current_balance)
+            
+            #confirmation of transaction 
+            print(f' {deposit} has been successfully deposited!! Your current account balance is {current_balance}')
+            quit()
 
         elif selected_option == 3:
             complaint = input('What would you like to report? \n')
