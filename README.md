@@ -24,4 +24,6 @@ This is the [Youtube playlist](https://www.youtube.com/watch?v=_pE-jTcLXgY&list=
    *I used lists, dictionary, if and else statement, string methods, input and arithmetic operands*
    
    [Youtube Link](https://www.youtube.com/watch?v=KuZwwbNBhY0&list=PLxuUHF3OiqfWAITD4gPUHZ1GcYRqmyF7P&index=15) and [Github Link to file](https://github.com/PrechyDev/Zuri/blob/main/mock_atm.py)
+
+   [Updated project](https://github.com/PrechyDev/Zuri/blob/main/updated_mock_atm.py) with login, register and a few other functions
     
