@@ -108,7 +108,7 @@ def deposit(user):
 
     if(option == 1):
         bank_operations(user)
-    elif(option == 2):
+    else:
         print('Thank you for banking with us')
         exit()
 
@@ -121,7 +121,7 @@ def check_balance(user):
 
     if(option == 1):
         bank_operations(user)
-    elif(option == 2):
+    else:
         print('Thank you for banking with us')
         exit()
 
