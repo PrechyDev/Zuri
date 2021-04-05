@@ -78,6 +78,7 @@ def bank_operations(user):
     elif(selected_option == 4):
         logout()
     elif(selected_option == 5):
+        print('Thank you for banking with us')
         exit()
     else:
         print('Invalid option, try again')
@@ -86,16 +87,28 @@ def bank_operations(user):
 
 def withdraw(user):
     amount = int(input('How much would you like to withdraw? \n'))
-    user[-1] -= amount #subtracts amount from user_balance
-    print('Take your cash')
-    print('Do you want to make another transaction?')
-    option = int(input(' 1.Yes 2.No \n'))
+    if amount >= user[-1]:
+        print('Insufficient Funds')
+        retry = int(input('Would you like to try again or deposit funds? \n 1. Retry 2. Deposit 3. exit \n'))
+        if(retry == 1):
+            withdraw(user)
+        if(retry == 2):
+            deposit(user)
+        else:
+            print('Thank you for banking with us')
+            exit()
 
-    if(option == 1):
-        bank_operations(user)
-    elif(option == 2):
-        print('Thank you for banking with us')
-        exit()
+    else:
+        user[-1] -= amount #subtracts amount from user_balance
+        print('Take your cash')
+        print('Do you want to make another transaction?')
+        option = int(input(' 1.Yes 2.No \n'))
+
+        if(option == 1):
+            bank_operations(user)
+        elif(option == 2):
+            print('Thank you for banking with us')
+            exit()
 
 def deposit(user):
     amount = int(input('How much do you want to deposit? \n'))
@@ -127,6 +140,7 @@ def check_balance(user):
 
 
 def logout():
+    print('Thank you for banking with us')
     login()
 
 
