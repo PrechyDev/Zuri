@@ -27,3 +27,13 @@ This is the [Youtube playlist](https://www.youtube.com/watch?v=_pE-jTcLXgY&list=
 
    [Updated project](https://github.com/PrechyDev/Zuri/blob/main/updated_mock_atm.py) with login, register and a few other functions
     
+    
+### [Budget App](https://github.com/PrechyDev/Zuri/blob/main/budget.py)
+   Create a Budget class that can instantiate objects based on different budget categories like food, clothing, and entertainment. These objects       should allow for
+   1.  Depositing funds to each of the categories
+   2.  Withdrawing funds from each category
+   3.  Computing category balances
+   4.  Transferring balance amounts between categories
+   
+   
+
