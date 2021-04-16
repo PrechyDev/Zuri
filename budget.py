@@ -43,18 +43,18 @@ class Budget:
    
 
 ## categories
-food = Budget('Food')
-transport = Budget('Transportation')
-clothing = Budget('Clothing')
-entertain = Budget('Entertainment')
-bills = Budget('Bills')
-rent = Budget('Rent')
-other = Budget('Others')
+#food = Budget('Food')
+#transport = Budget('Transportation')
+#clothing = Budget('Clothing')
+#entertain = Budget('Entertainment')
+#bills = Budget('Bills')
+#rent = Budget('Rent')
+#other = Budget('Others')
 
 ##tests
-food.deposit()
-food.withdraw()
-food.check_balance()
-bills.deposit()
-Budget.net_balance()
-food.transfer(rent)
+#food.deposit()
+#food.withdraw()
+#food.check_balance()
+#bills.deposit()
+#Budget.net_balance()
+#food.transfer(rent)
