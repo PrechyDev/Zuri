@@ -6,8 +6,10 @@ class Budget:
     '''
     ##total balance for all categories
     total_balance = 0
-    def net_balance():
-        print(f'The net balance of your budget categories is {Budget.total_balance}')
+
+    @classmethod
+    def net_balance(cls):
+        print(f'The net balance of your budgets is {cls.total_balance}')
 
     def __init__(self, category):
         self.name = category
