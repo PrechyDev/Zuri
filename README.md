@@ -87,9 +87,6 @@ The database used was SQLite.
 
 -    A comment section, you must be logged in to comment
 
-#### [Check out blog](http://prechy-blog.herokuapp.com)
-
-### Deployment
-
+ **[Check out blog](http://prechy-blog.herokuapp.com)**
 
 
